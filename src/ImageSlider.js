@@ -19,7 +19,7 @@ export default class ImageSlider extends Component {
   render() {
     const CURRENT_SLIDE = this.state.currentSlideIndex
     return {
-      {'I am on slide ${CURRENT_SLIDE}'}
+      'I am on slide ${CURRENT_SLIDE}'
     }
   }
 }
